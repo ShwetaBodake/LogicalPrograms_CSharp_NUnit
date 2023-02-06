@@ -8,7 +8,6 @@ namespace LogicalPrograms_2
         public static void dayofweekDisplay()
 		{
             //----------------------UC2_Day of entered date with date,month ,year------------------------//
-           // public int d, m, y;
                 Console.WriteLine("Enter the date");
             Console.WriteLine("Enter the day");
             d = Convert.ToInt32(Console.ReadLine());
