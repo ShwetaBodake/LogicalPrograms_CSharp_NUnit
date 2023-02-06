@@ -5,7 +5,10 @@ class Program
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Programs of Nunit ");
-            Console.WriteLine("Enter the option to choose the program 1.Vending Machine \n2.DayOfWeek \n3.Temprature Conversion");
+            Console.WriteLine("Enter the option to choose the program 1.Vending Machine \n2.DayOfWeek" +
+                " \n3.TemperaturConversion \n4.Monthly Payment");
+            
+                
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -17,6 +20,9 @@ class Program
                     break;
                 case 3:
                     temperaturConversion.temperaturConversionDisplay();
+                    break;
+                case 4:
+                    monthlyPayment.monthlyPaymentCalculate();
                     break;
                 default:
                     Console.WriteLine("Enter option wihin given option");
