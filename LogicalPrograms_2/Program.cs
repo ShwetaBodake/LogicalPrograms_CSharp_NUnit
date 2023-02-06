@@ -6,7 +6,7 @@ class Program
         {
             Console.WriteLine("Welcome to Logical Programs of Nunit ");
             Console.WriteLine("Enter the option to choose the program 1.Vending Machine \n2.DayOfWeek" +
-                " \n3.TemperaturConversion \n4.Monthly Payment");
+                " \n3.TemperaturConversion \n4.Monthly Payment \n5.Find square root" );
             
                 
             int option = Convert.ToInt32(Console.ReadLine());
@@ -23,6 +23,9 @@ class Program
                     break;
                 case 4:
                     monthlyPayment.monthlyPaymentCalculate();
+                    break;
+                case 5:
+                    squareRoot.squareRootDisplay();
                     break;
                 default:
                     Console.WriteLine("Enter option wihin given option");
